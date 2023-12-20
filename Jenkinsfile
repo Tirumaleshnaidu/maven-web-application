@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        docker { image:'docker pull maven:3.8.8-eclipse-temurin-8-alpine'}
+        docker { image 'maven:3.8.8-eclipse-temurin-8-alpine'}
     }
     stages {
         stage ('verson info') {
